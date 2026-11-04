@@ -5,7 +5,6 @@ from collections.abc import Iterable
 from datetime import datetime
 from typing import Literal, cast
 
-
 from app.exception.log_exceptions import InvalidLogLineError
 from app.models.log_entry import (
     ErrorCount,

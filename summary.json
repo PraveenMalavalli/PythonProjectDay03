@@ -1,0 +1,42 @@
+{
+  "total_lines": 472,
+  "valid_lines": 461,
+  "bad_lines": 11,
+  "counts_by_level": {
+    "DEBUG": 65,
+    "INFO": 299,
+    "WARNING": 58,
+    "ERROR": 39
+  },
+  "top_errors": [
+    {
+      "message": "unhandled exception KeyError: 'customer_id'",
+      "count": 13
+    },
+    {
+      "message": "payment gateway timeout",
+      "count": 11
+    },
+    {
+      "message": "connection refused to postgres:5432",
+      "count": 7
+    }
+  ],
+  "time_range": {
+    "start": "2026-03-02T08:00:04",
+    "end": "2026-03-02T11:30:15"
+  },
+  "bad_line_numbers": [
+    49,
+    91,
+    150,
+    185,
+    218,
+    224,
+    250,
+    261,
+    303,
+    400,
+    409
+  ]
+}
